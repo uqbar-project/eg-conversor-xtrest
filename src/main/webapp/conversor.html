@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<body>
+<h2>Convertir</h2>
+<form action="/convertir" method="post">
+    <fieldset>
+            <label for="titulo">Millas</label> 
+            <input 
+                required="true"
+                name="millas" class="form-control" 
+                placeholder="23"
+                autofocus="autofocus" value="{{millas}}">
+
+            <label for="kilometros">Kilometros</label>
+            <p class="lead">{{kilometros}}</p>
+
+        <button type="submit" class="btn btn-primary">Convertir</button>
+    </fieldset>
+</form>
