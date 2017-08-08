@@ -30,7 +30,7 @@ class ConversorController {
 	}
 	
 	def static void main(String[] args) {
-		XTRest.start(ConversorController, 9000)
+		XTRest.start(9000, ConversorController)
 	}
 	
 }

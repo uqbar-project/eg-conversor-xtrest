@@ -10,16 +10,11 @@
 		<version>2.9.1</version>
 	</parent>
 
-	<properties>
-		<jetty.version>9.0.2.v20130417</jetty.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.uqbar</groupId>
 			<artifactId>xtrest</artifactId>
-			<version>0.1.6</version>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
