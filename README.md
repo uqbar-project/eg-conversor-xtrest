@@ -20,7 +20,7 @@
 ### Opción B: Desde línea de comandos
 
 1. Generar jar con dependencias: `mvn clean compile assembly:single`
-2. Ejecutar el jar generador: `java -jar target/eg-conversor-xtrest-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
+2. Ejecutar el jar generador: `java -jar target/conversor-xtrest-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
 
 Esta opción requiere menos recursos de sistema porque no es necesario ejecutar Eclipse.
 
